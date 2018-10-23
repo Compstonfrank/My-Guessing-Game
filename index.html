@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="main.css">
+        <title>Guessing Game</title>
+    </head>
+    <body>
+        <header><h1     vertical-align="middle";
+            >Take Your Best Guess!</h1></header>
+        <section>
+            <h2 id="hint">Enter A Number Between 0 and 100</h2>
+            <div id="hintOne" style="display: none;"></div><div id="hintTwo" style="display: none;"></div><div id="hintThree" style="display: none;"></div><div id="hintFour" style="display: none;"></div>
+
+            <div id="circle">
+                <input id="numInput" type="text" placeholder="#" maxlength="3" >
+            </div>
+            <div id="submitDiv">
+                <input id="submitButton" type="button" value="Submit"></input>
+            </div>
+            <div id="resetAndHintDiv">
+                <button id="resetButton" class="buttons">Reset</button> <button class="buttons" id="hintButton">Hint</button>
+            </div>
+         
+        </section>
+
+        <div id="bottomDiv">
+            <ul>
+                <li id="num1"></li>
+                <li id="num2"></li>
+                <li id="num3"></li>
+                <li id="num4"></li>
+                <li id="num5"></li>
+            </ul>
+        </div>
+
+        <footer>
+                <div id="GH"><a href="https://www.gracehopper.com/" target="_blank"><img   align="right" src="GH.png"></a></div>
+
+                <div id="FSA"><a href="https://www.fullstackacademy.com/" target="_blank"><img align="left" src="Fullstack.png"></a></div>
+                <div id="ByBZ"><a align="middle" href="https://github.com/Compstonfrank" target="_blank"><p text-align="center" id="name" >Frank Compston</p></a></div>
+        </footer>
+        <script src="java.js"></script>
+    </body>
+</html>

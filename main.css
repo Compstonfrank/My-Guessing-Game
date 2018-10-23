@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=BioRhyme');
+
+body, html{
+    height: calc(100% - 2em);
+    margin: 0;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+body {
+    background: #4a00fb; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #4a00fb 0%, #e600ff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #4a00fb 0%,#e600ff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #4a00fb 0%,#e600ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a00fb', endColorstr='#e600ff',GradientType=1 );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Bungee Shade', cursive;
+    width: 75%;
+    background-color: rgba(255, 255, 255, .75);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4em;
+    margin: auto;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-bottom: solid black 5px;
+    border-left: solid black 5px;
+    border-right: solid black 5px;
+}
+
+h2 {
+    font-family: 'BioRhyme', serif;
+    background-color: rgba(255, 255, 255, .45);
+    border-bottom: solid black 5px;
+    border-left: solid black 5px;
+    border-right: solid black 5px;
+    width: 50%;
+    padding-top: 0%;
+    text-align: center;
+    font-size: 2em;
+    margin: auto;
+    color:black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#circle {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    background: #fff;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black 10px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#numInput {
+
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 80px;
+    margin-top: 60px;
+    text-decoration: none;
+    color: black;
+    font-size: 6em;
+    border: none;
+    background: transparent;
+}
+
+#submitDiv {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#submitButton {
+    background-color: rgba(255, 255, 255, .75);
+    cursor: pointer;
+    width: 20%;
+    margin-top: 25px;
+    text-decoration: none;
+    font-family: 'BioRhyme', serif;
+    font-size: 1.5em;
+    padding-left: 4px;
+    border: solid black 3px;
+    height: 40px;
+    font-weight: bold;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#resetAndHintDiv {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.buttons {
+    background-color: rgba(255, 255, 255, .75);
+    cursor: pointer;
+    border: solid black 3px;
+    width: 20%;
+    margin-top: 25px;
+    text-decoration: none;
+    font-family: 'BioRhyme', serif;
+    font-size: 1.5em;
+    height: 40px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#bottomDiv {
+    font-family: 'Bungee Shade', cursive;
+    background-color: rgba(255, 255, 255, .45);
+    padding-top: 0;
+    padding-bottom: 5;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4em;
+    margin-top: 25px;
+   border: solid black 3px;
+    size: 150%;
+
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    line-height: 30%;
+}
+
+#numsListDiv {
+    margin-top: 0px;
+    padding-bottom: 0px;
+    width: auto;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style: none;
+    margin-left: -40px;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+li {
+    font-family: 'BioRhyme', serif;
+    margin-right: 5px;
+    border: 5px solid black;
+    background: #fff;
+    padding: 5px 15px;
+    color: black;
+    display: inline;
+    line-height: 20%;
+    font-size: 30px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+footer {
+    background-color: rgba(255, 255, 255, .75);
+    margin-top: 4%;
+    line-height: 200%;
+    border: solid black 5px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#name {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 1.5em;
+    color: black;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+img {
+    width: auto;
+    height: 80px;
+}
+
+#hintOne {
+    font-size: 300%;
+    font-family: 'BioRhyme', serif;
+    text-align: center;
+    color: black;
+    margin-top: 10%;
+    margin-left: 150px;
+    float: left;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background: #fff;
+    border: solid black 5px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#hintTwo {
+    font-size: 200%;
+    font-family: 'BioRhyme', serif;
+    text-align: center;
+    color: black;
+    margin-top: 10%;
+    margin-left: 100px;
+    float: left;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    background: #fff;
+    border: solid black 5px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#hintThree {
+    font-size: 300%;
+    font-family: 'BioRhyme', serif;
+    text-align: center;
+    color: black;
+    margin-top: 10%;
+    margin-right: 150px;
+    float: right;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background: #fff;
+    border: solid black 5px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#hintFour {
+    font-size: 200%;
+    font-family: 'BioRhyme', serif;
+    text-align: center;
+    color: black;
+    margin-top: 10%;
+    margin-right: 100px;
+    float: right;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    background: #fff;
+    border: solid black 5px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
